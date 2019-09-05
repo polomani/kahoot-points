@@ -1,0 +1,6 @@
+.item {
+  color: white;
+  background-color: blueviolet;
+  text-align: center;
+  text-shadow: -0.1rem 0.1rem 0 rgba(0,0,0,0.2);
+}

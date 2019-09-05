@@ -1,0 +1,28 @@
+.gameItems {
+  float: left;
+  width: 100%;
+  padding: 0 0.1rem 0 0.1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .gameItems {
+    width: 65%;
+    height: 100%;
+    padding-bottom: 4rem; /* for label */
+  }
+
+  #itemsList {
+    height: 100%;
+    padding: 2em;
+    overflow: scroll;
+  }
+}
+
+#itemsList {
+  text-align: center;
+}
+
+.gameItemContainer {
+  display: inline-block;
+  margin: 0.1rem;
+}

@@ -1,0 +1,22 @@
+.noItems {
+  font-size: 1.5rem;
+  color: blueviolet;
+  text-align: center;
+  padding: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .noItems {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+  }
+}
+
+.button {
+  background-color: blueviolet;
+  text-align: center;
+  padding: 0 0.7rem 0 0.7rem;
+  font-size: 1.3rem;
+  text-shadow: -0.1rem 0.1rem 0 rgba(0,0,0,0.2);
+}
